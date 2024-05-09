@@ -1,0 +1,48 @@
+.note{
+    padding: 25px;
+    height: 100%;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ee2b2b;
+    border-radius: 30px;
+}
+
+.note-text{
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    outline: none;
+    border: none;
+}
+
+.note-mic{
+    display: flex;
+    gap: 10px;
+}
+
+.note-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-footer i{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.note:hover .note-footer i{
+    opacity: 1;
+}
+
+.note-Copy-Delete{
+    display: flex;
+    gap: 20px;
+}
+
